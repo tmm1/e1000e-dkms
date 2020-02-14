@@ -19,11 +19,11 @@ source=("http://downloads.sourceforge.net/project/e1000/${_modname}%20stable/${p
         'build-fix.patch')
 sha256sums=('41d90fd6d236faba0b36e4be4a15c0f71c901ccf61ebf1c2719375daf390e820'
             'ddc1868ee5cdac45312c9b75113cd21322e299b4bb794b40b224bb585e7f8186'
-            'd30c5d46d9f9b5e9c7ddcb3bd21303f585e04545571156fe3130d9f72922d0e0')
+            'd6a871ebc1db8a75b1093e2c17f3544203fb1384425cc6bc97e6707bbd1d6d5b')
 
 prepare() {
   cd ${srcdir}/${_modname}-${pkgver}
-#  patch -p1 <"$srcdir"/build-fix.patch
+  patch -p1 <"$srcdir"/build-fix.patch
 }
 
 package() {
