@@ -18,7 +18,7 @@ source=("http://downloads.sourceforge.net/project/e1000/${_modname}%20stable/${p
         'dkms.conf.in'
         'build-fix.patch')
 sha256sums=('41d90fd6d236faba0b36e4be4a15c0f71c901ccf61ebf1c2719375daf390e820'
-            '635b6c312c18db94e852248e0f5a1238e179ef1c0ebba2cdd0983afdb56efaf4'
+            'ddc1868ee5cdac45312c9b75113cd21322e299b4bb794b40b224bb585e7f8186'
             'd30c5d46d9f9b5e9c7ddcb3bd21303f585e04545571156fe3130d9f72922d0e0')
 
 prepare() {
